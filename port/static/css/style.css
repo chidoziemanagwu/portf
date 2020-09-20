@@ -1,0 +1,322 @@
+/*MEDIA QUERIES BEGIN*/
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+    .text {
+        font-size: 8rem;
+    }
+
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+    //CSS
+    html {
+        scroll-behavior: smooth;
+    }
+
+    .text {
+        font-size: 6rem;
+    }
+
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    //CSS
+    .cont {
+        max-height: 400px;
+        overflow-y: auto;
+
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    .text {
+        font-size: 4rem;
+    }
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+    //CSS
+    .cont {
+        max-height: 400px;
+        overflow-y: auto;
+    }
+
+    .text {
+        font-size: 4rem;
+    }
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    //CSS
+    .cont {
+        max-height: 300px;
+        overflow-y: auto;
+    }
+
+    .text {
+        font-size: 3rem;
+    }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    //CSS
+    .cont {
+        max-height: 300px;
+        overflow-y: auto;
+    }
+
+    .text {
+        font-size: 3rem;
+    }
+}
+
+/*MEDIA QUERIES END*/
+.typing {
+    font-family: 'Raleway', sans-serif;
+}
+
+body::-webkit-scrollbar {
+    width: 1em;
+}
+
+body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.6);
+    background-color: white;
+}
+
+body::-webkit-scrollbar-thumb {
+ background-color: #0abcf9;
+background-image: linear-gradient(40deg, #0abcf9 0%, #2c69d1 40%);
+   border-radius: 20px;
+   
+}
+
+.text {
+    text-shadow: 8px 5px 0px rgba(138, 35, 135, .5), 4px 4px 0px rgba(0, 0, 0, .5), 6px 3px 0px rgba(233, 64, 87, .5), 7px 4px 0px rgba(242, 113, 33, .5), 4px 6px 0px rgba(242, 113, 33, .5), 2px 8px 0px rgba(233, 64, 87, .5), 3px 9px 0px rgba(138, 35, 135, .5), 4px 4px 0px rgba(0, 0, 0, .5);
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #f35626;
+    background-image: -webkit-linear-gradient(95deg, #833ab4, #fd1d1d, #fcb045);
+    /* Chrome 10-25, Safari 5.1-6 */
+    ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: hue 5s infinite linear;
+}
+
+@-webkit-keyframes hue {
+    from {
+        -webkit-filter: hue-rotate(0deg);
+    }
+
+    to {
+        -webkit-filter: hue-rotate(-360deg);
+    }
+}
+
+.headings {
+    font-family: 'Lato', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/*CUBE*/
+.icons {
+    color: #021b79;
+    /* fallback for old browsers */
+    /* background: -webkit-linear-gradient(to right, #0575e6, #021b79); /* Chrome 10-25, Safari 5.1-6 */
+    /*background: linear-gradient(to right, #0575e6, #021b79);  W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ 
+   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;*/
+    text-shadow: 7px 7px 0px rgba(0, 0, 0, 1);
+}
+
+/*CSS FOR SPINNING CUBE*/
+.wrap {
+    /* margin-top: 150px;*/
+    perspective: 1000px;
+    perspective-origin: 80% 80%;
+    /*background-image: linear-gradient(135deg,#ccc 25%,#ddd 25%,#ddd 50%, #ccc 50%, #ccc 75%,#ddd 75%,#ddd 100%);
+                background-size: 80px 80px;
+                border-top: solid 3px #999;
+                border-bottom: solid 3px #999;*/
+    /* Background stripes animation */
+    animation: bganim 3s linear 2s infinite;
+    box-sizing: border-box;
+    overflow: hidden;
+
+}
+
+@keyframes bganim {
+    from {
+        background-position: 0px;
+    }
+
+    to {
+        background-position: 80px;
+    }
+}
+
+.cube {
+    margin: auto;
+    position: relative;
+    height: 200px;
+    width: 200px;
+    transform-style: preserve-3d;
+}
+
+.cube div {
+    position: absolute;
+    padding: 30px;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    /*background-color: #eee;*/
+    color: #fff;
+    font: 10px arial;
+    transition: transform 0.2s ease-in;
+}
+
+.front {
+    transform: translateZ(100px);
+}
+
+.back {
+    transform: translateZ(-100px) rotateY(180deg);
+}
+
+.right {
+    transform: rotateY(-270deg) translateX(100px);
+    transform-origin: top right;
+}
+
+.left {
+    transform: rotateY(270deg) translateX(-100px);
+    transform-origin: center left;
+}
+
+.top {
+    transform: rotateX(-270deg) translateY(-100px);
+    transform-origin: top center;
+}
+
+.bottom {
+    transform: rotateX(270deg) translateY(100px);
+    transform-origin: bottom center;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotateX(0deg) rotateY(0deg);
+    }
+
+    to {
+        transform: rotateX(360deg) rotateY(360deg);
+    }
+}
+
+.cube {
+    animation: rotate 20s infinite linear;
+}
+
+.wrap:hover .front {
+    transform: translateZ(200px);
+}
+
+.wrap:hover .back {
+    transform: translateZ(-200px) rotateY(180deg);
+}
+
+.wrap:hover .right {
+    transform: rotateY(-270deg) translateZ(100px) translateX(100px);
+}
+
+.wrap:hover .left {
+    transform: rotateY(270deg) translateZ(100px) translateX(-100px);
+}
+
+.wrap:hover .top {
+    transform: rotateX(-270deg) translateZ(100px) translateY(-100px);
+}
+
+.wrap:hover .bottom {
+    transform: rotateX(270deg) translateZ(100px) translateY(100px);
+}
+
+/*CSS FOR SPINNING CUBE*/
+
+/*TESTIMONIAL*/
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.cont {
+    max-height: 600px;
+    overflow-y: auto;
+}
+
+.cont::-webkit-scrollbar {
+    width: .5em;
+}
+
+.cont::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+    background-color: white;
+}
+
+.cont::-webkit-scrollbar-thumb {
+    background-color: #0abcf9;
+background-image: linear-gradient(40deg, #0abcf9 0%, #2c69d1 40%);
+   border-radius: 20px;
+}
+
+/*TESTIMONIAL*/
+
+/*BLOG*/
+
+/*BLOG*/

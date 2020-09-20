@@ -1,0 +1,684 @@
+{% load static %} 
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Google Fonts -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.15.0/css/mdb.min.css" rel="stylesheet">
+<!-- Font Awesome -->
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<!-- Friconix icons -->
+<script defer src="https://friconix.com/cdn/friconix.js"> </script>
+
+<link rel="stylesheet" href='{% static "css/style.css" %}'>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap" rel="stylesheet">
+<link rel="shortcut icon" href="{% static 'images/favicon.ico' %}" type="image/x-icon">
+<link rel="icon" href="{% static 'images/favicon.ico' %}" type="image/x-icon">
+
+<title>
+	Managwu Chidozie - Full Stack Developer, Mobile App Developer, Data Analyst, Chatbot Developer
+</title>
+</head>
+
+<body>
+<nav class="navbar sticky-top z-depth-0 navbar-light navbar-expand-lg bg-white scrolling-navbar ">
+	<div class="container ">
+  <a href="#"><img src='{% static "images/lap.png" %}' alt="my alt iamage "class="w-25" / ></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse " id="navbarNav">
+    <ul class="navbar-nav ml-auto deep-purple-text">
+      <li class="nav-item ">
+        <a class="nav-link bg-white btn border-info border  rounded-lg" href="#home">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link bg-white btn border-info border  rounded-lg" href="#about">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link btn bg-white border-info border  rounded-lg" href="#projects">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link btn border-info bg-white border  rounded-lg" href="https://mrmanagwu.blogspot.com/">Blog</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link btn border-info border  bg-white rounded-lg" href="#contact">Contact</a>
+      </li>
+    </ul>
+  </div>
+</div>
+</nav>
+
+
+<div class="container">
+    <!-- BEGINNING OF HOME SECTION-->
+    <div id = "home" class="p-5">
+        <h1 class="text text-center py-5 font-bold"><strong>MR MANAGWU</strong></h1>
+        <div id="app" class="text-center  pt-3 pb-5 typing">
+        </div>
+        <div class="row justify-content-center py-5">
+           <a href="mailto:chidozie.managwu@gmail.com" > <button class="btn btn-sm blue-gradient"><i class="fa fa-check"> </i> Hire Me</button></a>
+        </div>
+    </div>
+    <!-- END OF HOME SECTION-->
+    <div id="about">
+        <!--ABOUT-->
+        <div class="row">
+            <div class="col-md-6">
+                <div class="wrap py-5 ">
+                    <div class="cube py-5 my-5">
+                        <div class="front d-flex justify-content-center align-items-center">
+                            <img src='{% static "images/php.png" %}' alt="my alt iamage " class="w-100  z-depth-1 rounded-lg img img-fluid p-3 bg-white" />
+                        </div>
+                        <div class="back d-flex justify-content-center align-items-center">
+                            <img src='{% static "images/python.png" %}' alt="my alt iamage " class="w-100 z-depth-1 rounded-lg img img-fluid p-3 bg-white" />
+                        </div>
+                        <div class="top d-flex justify-content-center align-items-center">
+                            <img src='{% static "images/css.png" %}' alt="my alt iamage " class="w-100 z-depth-1 rounded-lg img img-fluid p-3 bg-white" />
+                        </div>
+                        <div class="bottom d-flex justify-content-center align-items-center">
+                            <img src='{% static "images/html.png" %}' alt="my alt iamage " class="w-100 z-depth-1 rounded-lg img img-fluid p-3 bg-white" />
+                        </div>
+                        <div class="left d-flex justify-content-center align-items-center">
+                            <img src='{% static "images/django2.png" %}' alt="my alt iamage " class="w-100 z-depth-1 rounded-lg img img-fluid p-3 bg-white" />
+                        </div>
+                        <div class="right d-flex justify-content-center align-items-center">
+                            <img src='{% static "images/jquery.png" %}' alt="my alt iamage " class=" w-100 z-depth-1 rounded-lg img img-fluid p-3 bg-white" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="container py-3">
+                    <p class="lead text-justify headings"><b>About Me</b></p>
+                    <hr>
+                    <p class="text-justify">
+                        <b><a href="https://mrmanagwu.blogspot.com/"><u>CHIDOZIE MANAGWU</u></a></b> has a Master’s degree in Computer Science, and hands-on experience using numerous languages to create and implement software applications and web based applications, I am confident I will be an asset to your organization.</p>
+                    <p class="text-justify">
+                        I enjoy being challenged and engaging with projects that require me to work outside my comfort and knowledge set, as continuing to learn new languages and development techniques are important to me and the success of your organization
+                    </p>
+                    <div class="text-center py-3">
+                        <a href="https://www.facebook.com/chidozie.managwu/"><i class="fi-owsux2-facebook-circle icons"></i></a>
+                <a href="https://twitter.com/MrManagwu"><i class="fi-owsux2-twitter icons"></i></a>
+                <a href="https://www.linkedin.com/in/chidozie-managwu-a82302131/"><i class="fi-owsux2-linkedin icons"></i></a>
+                <a href="https://wa.link/roeqf5"><i class="fi-owsux2-whatsapp icons"></i></a>
+                <a href="https://github.com/chidoziemanagwu"><i class="fi-owsux2-github icons"></i></a>
+                <a href="mailto:chidozie.managwu@gmail.com"><i class="fi-owsux2-envelope icons"></i></a>
+                    </div>
+                    <div class="row justify-content-center">
+                        <a href="mailto:chidozie.managwu@gmail.com"><button class="btn btn-sm blue-gradient"><i class="fa fa-check"> </i> Hire Me</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--ABOUT-->
+        <!--SERVICES-->
+        <div id="services" class="mt-5 pt-5">
+            <p class="lead text-center bold headings"><b>Services</b></p>
+            <hr>
+            <p class="text-center"><small>Take a look at what i can offer you</small></p>
+            <div class="container m-auto pt-5">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="card text-center mb-3">
+                            <div class="card-header blue-gradient text-white"><i class="fi-xwluxl-computer-desktop-wide"></i>
+                                Full Stack Development</div>
+                            <div class="card-body border border-info">
+                                <p class="card-text">I create websites and web applications that function without internet connection and respond as the device changes. My layouts will work on any device, big or small similarly to a mobile or desktop app. My designs feature easy scalability as needed</p>
+                            </div>
+                            <div class="card-footer blue-gradient border-success"><i class="fi-onsuxx-star text-warning "></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card text-center mb-3">
+                            <div class="card-header blue-gradient text-white"><i class="fi-xwluxl-smartphone-wide"></i>
+                                Mobile App Development</div>
+                            <div class="card-body border border-info">
+                                <p class="card-text">I develop mobile applications that function on any platform and OS both Android and IOS. While at the same time offering native like features, making them available on all app stores. My designs feature easy scalability and use of APIs as needed</p>
+                            </div>
+                            <div class="card-footer blue-gradient border-success"><i class="fi-onsuxx-star text-warning "></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card text-center mb-3">
+                            <div class="card-header blue-gradient text-white"><i class="fi-xwluxl-cloud-wide"></i>
+                                Data Analysis</div>
+                            <div class="card-body border border-info">
+                                <p class="card-text">
+                                    Computer Science graduate with certifications in Data Science, Machine Learning and SQL, Python and Microsoft Power BI programming languages; I am sure that my knowledge and skills will be the perfect match for your company.
+                                </p>
+                            </div>
+                            <div class="card-footer blue-gradient border-success"><i class="fi-onsuxx-star text-warning "></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card text-center mb-3">
+                            <div class="card-header blue-gradient text-white"><i class="fi-xtluxl-comment-dots-thin"></i></i>
+                                Chatbot Development</div>
+                            <div class="card-body border border-info">
+                                <p class="card-text">In an increasingly connected world, customers expect quick and accurate answers to their questions. Utilising chatbots to get customers the information they need fast is the next level of customer service. I am dedicated to automated chat bot development.</p>
+                            </div>
+                            <div class="card-footer blue-gradient border-success"><i class="fi-onsuxx-star text-warning "></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center py-5">
+                <a href="mailto:chidozie.managwu@gmail.com"> <button class="btn btn-sm blue-gradient"><i class="fa fa-check"> </i> Hire Me<</button></a>
+            </div>
+        </div>
+        <!--SERVICES-->
+        <!--SKILLS-->
+        <div id="skills" class="mt-5 pt-5">
+            <p class="lead text-center headings"><b>Skills</b></p>
+            <hr>
+            <p class="text-center"><small>Over the years, I have been able to broaden my skillset, take a look.</small></p>
+            <div class="container cont ">
+                <ul class="nav justify-content-center nav-pills mb-3 py-5" id="pills-tab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Web & Mobile Development</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Data Science</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Cloud Development</a>
+                    </li>
+                </ul>
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade  show active " id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="card border-primary mb-3">
+                                    <div class="card-header">Front End</div>
+                                    <div class="card-body text-primary">
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <img src='{% static "images/html.png" %}' alt="my alt iamage " class=" w-100 p-2 bg-white" />
+                                            </div>
+                                            <div class="col-4">
+                                                <img src='{% static "images/css.png" %}' alt="my alt iamage " class=" w-100 p-2 bg-white" />
+                                            </div>
+                                            <div class="col-4">
+                                                <img src='{% static "images/jquery.png" %}' alt="my alt iamage " class=" w-100 p-2 bg-white" />
+                                            </div>
+                                            <div class="col-4">
+                                                <img src='{% static "images/vue.png" %}' alt="my alt iamage " class=" w-100 p-2 bg-white" />
+                                            </div>
+                                            <div class="col-4">
+                                                <img src='{% static "images/vuenative.png" %}' alt="my alt iamage " class=" w-100 p-2 bg-white" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card border-primary mb-3">
+                                    <div class="card-header">Back End</div>
+                                    <div class="card-body text-primary">
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <img src='{% static "images/php.png" %}' alt="my alt iamage " class=" w-100 p-2 bg-white" />
+                                            </div>
+                                            <div class="col-4">
+                                                <img src='{% static "images/django2.png" %}' alt="my alt iamage " class=" w-100 p-2 bg-white" />
+                                            </div>
+                                            <div class="col-4">
+                                                <img src='{% static "images/python.png" %}' alt="my alt iamage " class=" w-100 p-2 bg-white" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card border-primary mb-3">
+                                    <div class="card-header">Database</div>
+                                    <div class="card-body text-primary">
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <img src='{% static "images/mysql.png" %}' alt="my alt iamage " class=" w-100 p-2 bg-white" />
+                                            </div>
+                                            <div class="col-4">
+                                                <img src='{% static "images/postgre.png" %}' alt="my alt iamage " class=" w-100 p-2 bg-white" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card border-primary mb-3">
+                                    <div class="card-header">Front End Frameworks</div>
+                                    <div class="card-body text-primary">
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <img src='{% static "images/mdb.png" %}' alt="my alt iamage " class=" w-100 p-2 bg-white" />
+                                            </div>
+                                            <div class="col-4">
+                                                <img src='{% static "images/bootstrap.png" %}' alt="my alt iamage " class=" w-100 p-2 bg-white" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card border-primary mb-3">
+                                    <div class="card-header">Animation</div>
+                                    <div class="card-body text-primary">
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <img src='{% static "images/scss.png" %}' alt="my alt iamage " class=" w-100 p-2 bg-white" />
+                                            </div>
+                                            <div class="col-4">
+                                                <img src='{% static "images/js.png" %}' alt="my alt iamage " class=" w-100 p-2 bg-white" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card border-primary mb-3">
+                                    <div class="card-header">Version Control</div>
+                                    <div class="card-body text-primary">
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <img src='{% static "images/github.png" %}' alt="my alt iamage " class=" w-100 p-2 bg-white" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade " id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="card border-primary mb-3">
+                                    <div class="card-header">Database Query Language</div>
+                                    <div class="card-body text-primary">
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <img src='{% static "images/sql.png" %}' alt="my alt iamage " class=" w-100 p-2 bg-white" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card border-primary mb-3">
+                                    <div class="card-header">Data Analysis and Visualization</div>
+                                    <div class="card-body text-primary">
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <img src='{% static "images/excel.png" %}' alt="my alt iamage " class=" w-100 p-2 bg-white" />
+                                            </div>
+                                            <div class="col-4">
+                                                <img src='{% static "images/powerbi.png" %}' alt="my alt iamage " class=" w-100 p-2 bg-white" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card border-primary mb-3">
+                                    <div class="card-header">Data Wrangling</div>
+                                    <div class="card-body text-primary">
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <img src='{% static "images/pandas.png" %}' alt="my alt iamage " class=" w-100 p-2 bg-white" />
+                                            </div>
+                                            <div class="col-4">
+                                                <img src='{% static "images/matplotlib.png" %}' alt="my alt iamage " class=" w-100 p-2 bg-white" />
+                                            </div>
+                                            <div class="col-4">
+                                                <img src='{% static "images/numpy1.png" %}' alt="my alt iamage " class=" w-100 p-2 bg-white" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card border-primary mb-3">
+                                    <div class="card-header">Environment</div>
+                                    <div class="card-body text-primary">
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <img src='{% static "images/jupyter.png" %}' alt="my alt iamage " class=" w-100 p-2 bg-white" />
+                                            </div>
+                                            <div class="col-4">
+                                                <img src='{% static "images/sublime.png" %}' alt="my alt iamage " class=" w-100 p-2 bg-white" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card border-primary mb-3">
+                                    <div class="card-header">Machine Learning Library</div>
+                                    <div class="card-body text-primary">
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <img src='{% static "images/scikit.png" %}' alt="my alt iamage " class=" w-100 p-2 bg-white" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="card border-primary mb-3">
+                                    <div class="card-header">Cloud Platform</div>
+                                    <div class="card-body text-primary">
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <img src='{% static "images/pyanywia.png" %}' alt="my alt iamage " class=" w-100 p-2 bg-white" />
+                                            </div>
+                                            <div class="col-4">
+                                                <img src='{% static "images/heroku.png" %}' alt="my alt iamage " class=" w-100 p-2 bg-white" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card border-primary mb-3">
+                                    <div class="card-header">Continous Development</div>
+                                    <div class="card-body text-primary">
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <img src='{% static "images/rest.png" %}' alt="my alt iamage " class=" w-100 p-2 bg-white" />
+                                            </div>
+                                            <div class="col-4">
+                                                <img src='{% static "images/ci.png" %}' alt="my alt iamage " class=" w-100 p-2 bg-white" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card border-primary mb-3">
+                                    <div class="card-header">Database Structure Design </div>
+                                    <div class="card-body text-primary">
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <img src='{% static "images/draw.png" %}' alt="my alt iamage " class=" w-100 p-2 bg-white" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center py-5">
+                <a href="mailto:chidozie.managwu@gmail.com"><button class="btn btn-sm blue-gradient"><i class="fa fa-check"> </i> Hire Me</button></a>
+            </div>
+        </div>
+        <!--SKILLS-->
+    </div>
+    <!--PROJECTS-->
+    <div id="projects" class="mt-5 pt-5">
+        <p class="lead text-center headings"><b>Projects & Testimonials</b></p>
+        <hr>
+        <p class="text-center"><small>A cross section of some of the applications I have built</small></p>
+        <div class="container cont  py-5 blue-gradient rounded-lg">
+            <div class="row">
+                <div class="col-md-3 mb-3">
+                    <!-- Card -->
+                    <div class="card">
+                        <!-- Card content -->
+                        <div class="card-body">
+                                    <p class="text-center"><img src='{% static "images/apoa.png" %}' alt="my alt iamage " class=" w-75 align-center img img-fluid img-responsive" /></p>
+                               
+                            
+                            <hr>
+                            <p class="card-text text-center">A PLACE OF ABUNDANCE</p>
+                            <hr>
+                            <!-- Text -->
+                            
+                            <!-- Button -->
+                            <div class="row justify-content-center">
+                                <a href="http://aplaceofabundance.com.ng/" class="btn  btn-primary btn-sm"><i class="fa fa-eye"></i> Visit</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card -->
+                </div>
+                <div class="col-md-3 mb-3">
+                    <!-- Card -->
+                    <div class="card">
+                        <!-- Card content -->
+                        <div class="card-body">
+                                   <p class="text-center"> <img src='{% static "images/berg.png" %}' alt="my alt iamage " class="w-25 img img-fluid img-sm" /></p>
+                                </div>
+                            <hr>
+                            <p class="card-text text-center">BERG SHIPWRIGHT</p>
+                            <hr>
+                            <!-- Text -->
+                            <!-- Button -->
+                            <div class="row justify-content-center">
+                                <a href="https://bergshipwright.com/index.html" class="btn  btn-primary btn-sm"> <i class="fa fa-eye"></i> View</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card -->
+               
+                <div class="col-md-3 mb-3">
+                    <!-- Card -->
+                    <div class="card">
+                        <!-- Card content -->
+                        <div class="card-body">
+                                   <p class="text-center"> <img src='{% static "images/skyhigh.png" %}' alt="my alt iamage " class="w-50 img img-fluid img-sm" /></p>
+                            <hr>
+                            <p class="card-text text-center">SKYHIGH FIRSTCLASS</p>
+                            <hr>
+                            <!-- Text -->
+                            <!-- Button -->
+                            <div class="row justify-content-center">
+                                <a href="https://www.skyhighfirstclass.com/" class="btn  btn-primary btn-sm"><i class="fa fa-eye"></i> View</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card -->
+                </div>
+                <div class="col-md-3 mb-3">
+                    <!-- Card -->
+                    <div class="card">
+                        <!-- Card content -->
+                        <div class="card-body">
+                                    <p class="text-center"><img src='{% static "images/apro.png" %}' alt="my alt iamage " class="w-50 img img-fluid img-sm" /></p>
+                                
+                            <hr>
+                            <p class="card-text text-center">APRO GLOBAL REAL ESTATES</p>
+                            <hr>
+                            <!-- Text -->
+                            <!-- Button -->
+                            <div class="row justify-content-center">
+                                <a href="https://www.aproglobalestate.com.ng/" class="btn  btn-primary btn-sm"><i class="fa fa-eye"></i> View</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card -->
+                </div>
+                <div class="col-md-3 mb-3">
+                    <!-- Card -->
+                    <div class="card">
+                        <!-- Card content -->
+                        <div class="card-body">
+                                   <p class="text-center"> <img src='{% static "images/wow.png" %}' alt="my alt iamage " class="w-50 img img-fluid img-sm" /></p>
+                               
+                            <hr>
+                            <p class="card-text text-center">WOW LANDLORDS</p>
+                            <hr>
+                            <!-- Text -->
+                            <!-- Button -->
+                            <div class="row justify-content-center">
+                                <a href="https://wowlandlordsng.com/" class="btn  btn-primary btn-sm"><i class="fa fa-eye"></i> View</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card -->
+                </div>
+                <div class="col-md-3 mb-3">
+                    <!-- Card -->
+                    <div class="card">
+                        <!-- Card content -->
+                        <div class="card-body">
+                                   <p class="text-center"> <img src='{% static "images/paradice.png" %}' alt="my alt iamage " class="w-50 img img-fluid img-sm" /></p>
+                            <hr>
+                            <p class="card-text text-center">PARADICE STUDIOS</p>
+                            <hr>
+                            <!-- Text -->
+                            <!-- Button -->
+                            <div class="row justify-content-center">
+                                <a href="http://paradicestudios.com/" class="btn  btn-primary btn-sm"><i class="fa fa-eye"></i> View</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card -->
+                </div>
+                <div class="col-md-3 mb-3">
+                    <!-- Card -->
+                    <div class="card">
+                        <!-- Card content -->
+                        <div class="card-body">
+                                   <p class="text-center"> <img src='{% static "images/GAMES.png" %}' alt="my alt iamage " class="w-75 img img-fluid img-sm" /></p>
+                            <hr>
+                            <p class="card-text text-center">GAME CONSORT</p>
+                            <hr>
+                            <!-- Text -->
+                            <!-- Button -->
+                            <div class="row justify-content-center">
+                                <a href="https://the-fixxxer.github.io/GAMES_Site/" class="btn  btn-primary btn-sm"><i class="fa fa-eye"></i> View</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card -->
+                </div>
+                
+            </div>
+        </div>
+        <div class="row justify-content-center py-5">
+           <a href="mailto:chidozie.managwu@gmail.com" > <button class="btn btn-sm blue-gradient"><i class="fa fa-check"> </i> Hire Me </button></a>
+        </div>
+        <!--PROJECTS-->
+        <!--STARTUPS-->
+       <!--  <div id="startup" class="mt-5 pt-5">
+            <p class="lead text-center headings"><b>Startups</b></p>
+            <hr>
+            <p class="text-center"><small>Having built so many web applications, I decided to branch out and start some of my own.</small></p>
+            <div class="container cont  py-5 rounded-lg">
+                <div class="row">
+                    <div class="col-md-4 mb-3">
+                      
+                        <div class="card border-primary border">
+                            
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-6 d-flex justify-content-center">
+                                        <img src='{% static "images/wow.png" %}' alt="my alt iamage " class="w-50 img img-fluid img-sm" />
+                                    </div>
+                                    <div class="col-6 box">
+                                        <p class="card-text bold-text"> Wowlandlords</p>
+                                    </div>
+                                </div>
+                                <hr>
+                                <p class="card-text text-center">Online Raffle Draw Platform</p>
+                                <hr>
+                                
+                                <p class="card-text text-center  "> <button class="btn btn-sm blue-gradient rounded-pill"> Visit </button></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center py-5">
+                <button class="btn btn-sm blue-gradient"><a href="#contact"><i class="fa fa-check"> </i> Hire Me</a></button>
+            </div>
+        </div>
+        <!--STARTUPS-->
+    </div>
+    <!--BLOGS-->
+   
+    <!--BLOGS-->
+    <!--CONTACT-->
+    <div id="contact" class="mt-5 pt-5">
+        <p class="lead text-center headings"><b>Contact</b></p>
+        <hr>
+        <p class="text-center"><small>I am a very simple guy, let's grab a drink sometime.</small></p>
+        <div class="container cont  py-5 rounded-lg">
+            <div class="text-center py-3">
+                <a href="https://www.facebook.com/chidozie.managwu/"><i class="fi-owsux2-facebook-circle icons"></i></a>
+                <a href="https://twitter.com/MrManagwu"><i class="fi-owsux2-twitter icons"></i></a>
+                <a href="https://www.linkedin.com/in/chidozie-managwu-a82302131/"><i class="fi-owsux2-linkedin icons"></i></a>
+                <a href="https://wa.link/roeqf5"><i class="fi-owsux2-whatsapp icons"></i></a>
+                <a href="https://github.com/chidoziemanagwu"><i class="fi-owsux2-github icons"></i></a>
+                <a href="mailto:chidozie.managwu@gmail.com"><i class="fi-owsux2-envelope icons"></i></a>
+            </div>
+            <div class="row justify-content-center py-5">
+              <a href="mailto:chidozie.managwu@gmail.com">  <button class="btn btn-sm blue-gradient"><i class="fa fa-check"> </i> Hire Me</button></a>
+            </div>
+            <div class="text-center">
+                &copy;
+                <span id="copyright">
+                    <script>
+                    document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()));
+                    </script>
+                </span>
+                Mr Managwu
+            </div>
+        </div>
+    </div>
+    <!--CONTACT-->
+</div>
+
+</body>
+<!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.15.0/js/mdb.min.js"></script>
+
+{# <script type="text/javascript" src="{% static 'js/main.js' %}"></script> #}
+<script type="text/javascript" src="{% static 'js/core.js' %}"></script>
+
+
+<script>
+var app = document.getElementById('app');
+
+var typewriter = new Typewriter(app, {
+    loop: true
+});
+
+typewriter.typeString('<span class="text-uppercase">Full Stack Developer</span>')
+    .pauseFor(2500)
+    .deleteAll()
+    .typeString('<span class="text-uppercase">Mobile Developer</span>')
+    .pauseFor(2500)
+    .deleteAll()
+    .typeString('<span class="text-uppercase">Data Analyst</span>')
+    .pauseFor(2500)
+    .deleteAll()
+    .typeString('<span class="text-uppercase">Chatbot Developer</span>')
+    .pauseFor(2500)
+    
+    .start();
+</script>
+</html>
